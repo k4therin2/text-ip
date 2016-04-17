@@ -14,6 +14,5 @@ If you have other stuff going on in your rc.local, add the following lines befor
     #  replace NUMBER with your cell #
       curl http://textbelt.com/text -d number=NUMBER -d "message= $IPADDR"
     fi
-`
 
 Replace "NUMBER" with your phone number in the format 5555555555 (don't include the +1).
